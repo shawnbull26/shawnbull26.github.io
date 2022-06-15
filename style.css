@@ -12,9 +12,10 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: url(images/blur.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: linear-gradient(to top, #05386b, #005788, #00779c, #0096a5, #00b5a6, #46c4a4, #6dd3a2, #91e1a0, #aee6ac, #c7eabb, #dcefcd, #edf5e1);
+  /* background-image: url(images/blur.jpg); */
+  /* background-size: cover;
+  background-position: center; */
   /* background-color: #3AAFA9; */
 }
 header {
@@ -52,7 +53,7 @@ header {
   margin-right: 30px;
 }
 .navigation a:hover {
-  background: #FFF;
+  background: #8EE4AF;
 }
 .content {
   max-width: 650px;
@@ -75,6 +76,7 @@ header {
   font-weight: 600;
 }
 .content .info p {
+  color: #05386B;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 40px;
@@ -96,7 +98,7 @@ header {
   background: #8EE4AF;
 }
 .contact {
-  color: #05386B;
+  color: #edf5e1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +114,7 @@ header {
 }
 .media-icons a {
   position: relative;
-  color: #05386B;
+  color: #edf5e1;
   font-size: 25px;
   transition: 0.3s;
   transition-property: transform;
