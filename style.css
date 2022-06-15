@@ -12,7 +12,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: linear-gradient(to top, #05386b, #005788, #00779c, #0096a5, #00b5a6, #46c4a4, #6dd3a2, #91e1a0, #aee6ac, #c7eabb, #dcefcd, #edf5e1);
+  background-image: linear-gradient(to left top, #05386b, #005788, #00779c, #0096a5, #00b5a6, #46c4a4, #6dd3a2, #91e1a0, #aee6ac, #c7eabb, #dcefcd, #edf5e1);
   /* background-image: url(images/blur.jpg); */
   /* background-size: cover;
   background-position: center; */
