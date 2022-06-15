@@ -12,7 +12,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: url(https://github.com/shawnbull26/shawnbull26.github.io/blob/main/blur.jpg);
+  background-image: url(images/blur.jpg);
   background-size: cover;
   background-position: center;
   /* background-color: #3AAFA9; */
