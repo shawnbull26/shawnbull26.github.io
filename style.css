@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lobster", cursive;
+  font-family: "Lobster Two", cursive;
 }
 section {
   position: relative;
@@ -31,6 +31,7 @@ header {
   position: relative;
   font-size: 30px;
   text-decoration: none;
+  font-style: italic;
   /* text-transform: uppercase; */
   font-weight: 800;
   letter-spacing: 1px;
@@ -39,6 +40,7 @@ header {
   color: #000;
   text-decoration: none;
   font-weight: 500;
+  font-style: italic;
   letter-spacing: 1px;
   padding: 2px 15px;
   border-radius: 20px;
@@ -59,6 +61,7 @@ header {
 .content .info h2{
   color: #FEFFFF;
   font-size: 55px;
+  font-style: italic;
   /* text-transform: uppercase; */
   font-weight: 800;
   letter-spacing: 2px;
@@ -77,10 +80,11 @@ header {
 }
 .content .info-btn {
   color: #FEFFFF;
-  background: #2B7A78;
+  background: #17252A;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
+  font-style: italic;
   letter-spacing: 2px;
   padding: 10px 20px;
   border-radius: 5px;
@@ -88,7 +92,7 @@ header {
   transition-property: transform;
 }
 .content .info-btn:hover {
-  background: #17252A;
+  background: #2B7A78;
 }
 .contact {
   display: flex;
@@ -178,7 +182,7 @@ label {
   }
 
   label .menu-btn{
-    position: relative;
+    position: absolute;
   }
 
   header .logo {
