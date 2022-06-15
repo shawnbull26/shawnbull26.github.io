@@ -62,6 +62,7 @@ header {
 .content {
   max-width: 650px;
   margin: 60px 100px;
+  align-items: center;
 }
 .content .info h2{
   color: #05386B;
