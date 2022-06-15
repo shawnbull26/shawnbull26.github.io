@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lobster Two", cursive;
+  font-family: 'Fascinate', cursive;
 }
 section {
   position: relative;
@@ -30,10 +32,11 @@ header {
 .logo {
   color: #05386B;
   position: relative;
+  font-family: 'Fascinate', cursive;
   font-size: 30px;
   text-decoration: none;
   font-style: italic;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 1px;
 }
@@ -41,6 +44,7 @@ header {
   color: #05386B;
   text-decoration: none;
   font-weight: 500;
+  font-size: 20px;
   font-style: italic;
   letter-spacing: 1px;
   padding: 2px 15px;
@@ -62,6 +66,7 @@ header {
 .content .info h2{
   color: #05386B;
   border-radius: 25px;
+  font-family: 'Fascinate Inline', cursive;
   font-size: 55px;
   font-style: italic;
   /* text-transform: uppercase; */
@@ -77,7 +82,8 @@ header {
 }
 .content .info p {
   color: #05386B;
-  font-size: 16px;
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 30px;
   font-weight: 500;
   margin-bottom: 40px;
 }
@@ -111,6 +117,7 @@ header {
   align-items: center;
   margin: auto;
   margin-top: 5px;
+  margin-bottom: 50px;
 }
 .media-icons a {
   position: relative;
@@ -187,6 +194,7 @@ label {
 
   label .menu-btn{
     position: absolute;
+    color: #05386B;
   }
 
   header .logo {
