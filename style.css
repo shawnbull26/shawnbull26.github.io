@@ -178,7 +178,7 @@ label {
   }
 
   label .menu-btn{
-    position: sticky;
+    position: relative;
   }
 
   header .logo {
