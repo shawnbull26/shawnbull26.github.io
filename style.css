@@ -12,10 +12,10 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* background-image: url(images/logo.png); */
-  /* background-size: cover;
-  background-position: center; */
-  background-color: #3AAFA9;
+  background-image: url(images/blur.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-color: #3AAFA9; */
 }
 header {
   position: relative;
@@ -27,7 +27,7 @@ header {
   align-items: center;
 }
 .logo {
-  color: #FEFFFF;
+  color: #05386B;
   position: relative;
   font-size: 30px;
   text-decoration: none;
@@ -37,7 +37,7 @@ header {
   letter-spacing: 1px;
 }
 .navigation a{
-  color: #000;
+  color: #05386B;
   text-decoration: none;
   font-weight: 500;
   font-style: italic;
@@ -59,7 +59,8 @@ header {
   margin: 60px 100px;
 }
 .content .info h2{
-  color: #FEFFFF;
+  color: #05386B;
+  border-radius: 25px;
   font-size: 55px;
   font-style: italic;
   /* text-transform: uppercase; */
@@ -69,7 +70,7 @@ header {
   margin-bottom: 30px;
 }
 .content .info h2 span {
-  color: #2B7A78;
+  color: #379683;
   font-size: 50px;
   font-weight: 600;
 }
@@ -80,7 +81,7 @@ header {
 }
 .content .info-btn {
   color: #FEFFFF;
-  background: #17252A;
+  background: #05386B;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
@@ -92,9 +93,10 @@ header {
   transition-property: transform;
 }
 .content .info-btn:hover {
-  background: #2B7A78;
+  background: #8EE4AF;
 }
 .contact {
+  color: #05386B;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +112,7 @@ header {
 }
 .media-icons a {
   position: relative;
-  color: #17252A;
+  color: #05386B;
   font-size: 25px;
   transition: 0.3s;
   transition-property: transform;
