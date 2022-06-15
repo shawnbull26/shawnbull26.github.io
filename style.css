@@ -90,11 +90,19 @@ header {
 .content .info-btn:hover {
   background: #17252A;
 }
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: auto;
+}
 .media-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
+  margin-top: 5px;
 }
 .media-icons a {
   position: relative;
