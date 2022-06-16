@@ -82,6 +82,9 @@ header {
   font-weight: 600;
 }
 .content .info p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #1F4690;
   font-family: 'Fascinate Inline', cursive;
   font-size: 50px;
@@ -102,7 +105,27 @@ header {
   transition: 0.3s;
   transition-property: transform;
 }
+.info-btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: #F1F1E6;
+  background: #1F4690;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+  transition-property: transform;
+}
 .content .info-btn:hover {
+  background: #FF8372;
+}
+.info-btn2:hover {
   background: #FF8372;
 }
 .contact {
@@ -111,7 +134,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-bottom: 5px;
-  margin-top: auto;
+  margin-top: 100px;
 }
 .media-icons {
   display: flex;
@@ -127,6 +150,17 @@ header {
   font-size: 25px;
   transition: 0.3s;
   transition-property: transform;
+}
+.rights {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: 50px;
+  color: #FF8372;
+  font-size: 15px;
 }
 .media-icons a:not(:last-child) {
   margin-right: 60px;
