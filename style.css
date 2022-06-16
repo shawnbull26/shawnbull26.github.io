@@ -14,8 +14,9 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* background-color: #F4F9F4; */
-  background-image: linear-gradient(to right bottom, #f4f9f4, #e3f0e6, #d0e8d9, #bcdfce, #a7d7c5);  /* background-image: url(images/blur.jpg); */
+  background-color: #F1F1E6;
+  /* background-image: radial-gradient(circle, #51487e, #474377, #3d3e70, #333969, #293462); */
+  /* background-image: url(images/blur.jpg); */
   /* background-size: cover;
   background-position: center; */
   /* background-color: #3AAFA9; */
@@ -30,7 +31,7 @@ header {
   align-items: center;
 }
 .logo {
-  color: #5C8D89;
+  color: #FF8372;
   position: relative;
   font-family: 'Fascinate', cursive;
   font-size: 30px;
@@ -41,7 +42,7 @@ header {
   letter-spacing: 1px;
 }
 .navigation a{
-  color: #5C8D89;
+  color: #FF8372;
   text-decoration: none;
   font-weight: 500;
   font-size: 20px;
@@ -57,7 +58,7 @@ header {
   margin-right: 30px;
 }
 .navigation a:hover {
-  background: #A7D7C5;
+  background: #1F4690;
 }
 .content {
   max-width: 650px;
@@ -65,9 +66,9 @@ header {
   align-items: center;
 }
 .content .info h2{
-  color: #5C8D89;
+  color: #FF8372;
   font-family: 'Fascinate Inline', cursive;
-  font-size: 65px;
+  font-size: 85px;
   font-style: italic;
   /* text-transform: uppercase; */
   font-weight: 800;
@@ -76,21 +77,21 @@ header {
   margin-bottom: 30px;
 }
 .content .info h2 span {
-  color: #74B49B;
+  color: #EE7084;
   font-size: 50px;
   font-weight: 600;
 }
 .content .info p {
-  color: #5C8D89;
+  color: #1F4690;
   font-family: 'Fascinate Inline', cursive;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 40px;
 }
 .content .info-btn {
-  color: #FFE5B4;
-  background: #05386B;
+  color: #F1F1E6;
+  background: #1F4690;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
@@ -102,10 +103,10 @@ header {
   transition-property: transform;
 }
 .content .info-btn:hover {
-  background: #FFA500;
+  background: #FF8372;
 }
 .contact {
-  color: #5C8D89;
+  color: #FF8372;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,7 +123,7 @@ header {
 }
 .media-icons a {
   position: relative;
-  color: #5C8D89;
+  color: #FF8372;
   font-size: 25px;
   transition: 0.3s;
   transition-property: transform;
@@ -147,7 +148,7 @@ label {
   }
 
   label {
-    color: #5C8D89;
+    color: #FF8372;
     display: block;
     font-size: 25px;
     cursor: pointer;
@@ -156,7 +157,7 @@ label {
   }
 
   label:hover {
-    color: #A7D7C5;
+    color: #1F4690;
   }
 
   label .close-btn {
@@ -166,7 +167,7 @@ label {
   #check:checked ~ header .navigation {
     z-index: 2;
     position: fixed;
-    background: #F4F9F4;
+    background: #F1F1E6;
     top: 0;
     bottom: 0;
     left: 0;
@@ -196,7 +197,7 @@ label {
 
   label .menu-btn{
     position: absolute;
-    color: #5C8D89;
+    color: #FF8372;
   }
 
   header .logo {
