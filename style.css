@@ -14,7 +14,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: linear-gradient(to left top, #05386b, #005788, #00779c, #0096a5, #00b5a6, #46c4a4, #6dd3a2, #91e1a0, #aee6ac, #c7eabb, #dcefcd, #edf5e1);
+  background-image: radial-gradient(circle, #1f4690, #264b94, #2d5098, #34569c, #3a5ba0);
   /* background-image: url(images/blur.jpg); */
   /* background-size: cover;
   background-position: center; */
@@ -30,7 +30,7 @@ header {
   align-items: center;
 }
 .logo {
-  color: #05386B;
+  color: #FFE5B4;
   position: relative;
   font-family: 'Fascinate', cursive;
   font-size: 30px;
@@ -41,7 +41,7 @@ header {
   letter-spacing: 1px;
 }
 .navigation a{
-  color: #05386B;
+  color: #FFE5B4;
   text-decoration: none;
   font-weight: 500;
   font-size: 20px;
@@ -57,7 +57,7 @@ header {
   margin-right: 30px;
 }
 .navigation a:hover {
-  background: #8EE4AF;
+  background: #FFA500;
 }
 .content {
   max-width: 650px;
@@ -65,10 +65,10 @@ header {
   align-items: center;
 }
 .content .info h2{
-  color: #05386B;
+  color: #FFA500;
   border-radius: 25px;
   font-family: 'Fascinate Inline', cursive;
-  font-size: 55px;
+  font-size: 65px;
   font-style: italic;
   /* text-transform: uppercase; */
   font-weight: 800;
@@ -77,19 +77,20 @@ header {
   margin-bottom: 30px;
 }
 .content .info h2 span {
-  color: #379683;
+  color: #FFE5B4;
   font-size: 50px;
   font-weight: 600;
 }
 .content .info p {
-  color: #05386B;
+  color: #FFE5B4;
   font-family: 'Fascinate Inline', cursive;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 500;
+  letter-spacing: 2px;
   margin-bottom: 40px;
 }
 .content .info-btn {
-  color: #FEFFFF;
+  color: #FFE5B4;
   background: #05386B;
   text-decoration: none;
   text-transform: uppercase;
@@ -102,10 +103,10 @@ header {
   transition-property: transform;
 }
 .content .info-btn:hover {
-  background: #8EE4AF;
+  background: #FFA500;
 }
 .contact {
-  color: #edf5e1;
+  color: #FFE5B4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,7 +123,7 @@ header {
 }
 .media-icons a {
   position: relative;
-  color: #edf5e1;
+  color: #FFE5B4;
   font-size: 25px;
   transition: 0.3s;
   transition-property: transform;
@@ -147,6 +148,7 @@ label {
   }
 
   label {
+    color: #FFE5B4;
     display: block;
     font-size: 25px;
     cursor: pointer;
@@ -155,7 +157,7 @@ label {
   }
 
   label:hover {
-    color: #17252A;
+    color: #FFA500;
   }
 
   label .close-btn {
@@ -165,7 +167,7 @@ label {
   #check:checked ~ header .navigation {
     z-index: 2;
     position: fixed;
-    background: #DEF2F1;
+    background: #3A5BA0;
     top: 0;
     bottom: 0;
     left: 0;
@@ -195,7 +197,7 @@ label {
 
   label .menu-btn{
     position: absolute;
-    color: #05386B;
+    color: #FFE5B4;
   }
 
   header .logo {
