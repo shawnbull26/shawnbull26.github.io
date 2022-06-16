@@ -14,8 +14,8 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: radial-gradient(circle, #1f4690, #264b94, #2d5098, #34569c, #3a5ba0);
-  /* background-image: url(images/blur.jpg); */
+  /* background-color: #F4F9F4; */
+  background-image: linear-gradient(to right bottom, #f4f9f4, #e3f0e6, #d0e8d9, #bcdfce, #a7d7c5);  /* background-image: url(images/blur.jpg); */
   /* background-size: cover;
   background-position: center; */
   /* background-color: #3AAFA9; */
@@ -30,7 +30,7 @@ header {
   align-items: center;
 }
 .logo {
-  color: #FFE5B4;
+  color: #5C8D89;
   position: relative;
   font-family: 'Fascinate', cursive;
   font-size: 30px;
@@ -41,7 +41,7 @@ header {
   letter-spacing: 1px;
 }
 .navigation a{
-  color: #FFE5B4;
+  color: #5C8D89;
   text-decoration: none;
   font-weight: 500;
   font-size: 20px;
@@ -57,7 +57,7 @@ header {
   margin-right: 30px;
 }
 .navigation a:hover {
-  background: #FFA500;
+  background: #A7D7C5;
 }
 .content {
   max-width: 650px;
@@ -65,8 +65,7 @@ header {
   align-items: center;
 }
 .content .info h2{
-  color: #FFA500;
-  border-radius: 25px;
+  color: #5C8D89;
   font-family: 'Fascinate Inline', cursive;
   font-size: 65px;
   font-style: italic;
@@ -77,14 +76,14 @@ header {
   margin-bottom: 30px;
 }
 .content .info h2 span {
-  color: #FFE5B4;
+  color: #74B49B;
   font-size: 50px;
   font-weight: 600;
 }
 .content .info p {
-  color: #FFE5B4;
+  color: #5C8D89;
   font-family: 'Fascinate Inline', cursive;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 40px;
@@ -106,7 +105,7 @@ header {
   background: #FFA500;
 }
 .contact {
-  color: #FFE5B4;
+  color: #5C8D89;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,7 +122,7 @@ header {
 }
 .media-icons a {
   position: relative;
-  color: #FFE5B4;
+  color: #5C8D89;
   font-size: 25px;
   transition: 0.3s;
   transition-property: transform;
@@ -148,7 +147,7 @@ label {
   }
 
   label {
-    color: #FFE5B4;
+    color: #5C8D89;
     display: block;
     font-size: 25px;
     cursor: pointer;
@@ -157,7 +156,7 @@ label {
   }
 
   label:hover {
-    color: #FFA500;
+    color: #A7D7C5;
   }
 
   label .close-btn {
@@ -167,7 +166,7 @@ label {
   #check:checked ~ header .navigation {
     z-index: 2;
     position: fixed;
-    background: #3A5BA0;
+    background: #F4F9F4;
     top: 0;
     bottom: 0;
     left: 0;
@@ -197,7 +196,7 @@ label {
 
   label .menu-btn{
     position: absolute;
-    color: #FFE5B4;
+    color: #5C8D89;
   }
 
   header .logo {
