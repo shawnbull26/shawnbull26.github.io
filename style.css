@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Fascinate', cursive;
 }
+
 section {
   position: relative;
   width: 100%;
@@ -15,12 +17,8 @@ section {
   flex-direction: column;
   justify-content: flex-start;
   background-color: #F1F1E6;
-  /* background-image: radial-gradient(circle, #51487e, #474377, #3d3e70, #333969, #293462); */
-  /* background-image: url(images/blur.jpg); */
-  /* background-size: cover;
-  background-position: center; */
-  /* background-color: #3AAFA9; */
 }
+
 header {
   position: relative;
   top: 0;
@@ -30,6 +28,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
   color: #FF8372;
   position: relative;
@@ -41,7 +40,8 @@ header {
   font-weight: 800;
   letter-spacing: 1px;
 }
-.navigation a{
+
+.navigation a {
   color: #FF8372;
   text-decoration: none;
   font-weight: 500;
@@ -52,20 +52,23 @@ header {
   border-radius: 20px;
   transition: 0.3s;
   transition-property: background;
-
 }
+
 .navigation a:not(:last-child) {
   margin-right: 30px;
 }
+
 .navigation a:hover {
   background: #1F4690;
 }
+
 .content {
   max-width: 650px;
   margin: 60px 100px;
   align-items: center;
 }
-.content .info h2{
+
+.content .info h2 {
   color: #FF8372;
   font-family: 'Fascinate Inline', cursive;
   font-size: 85px;
@@ -76,11 +79,13 @@ header {
   line-height: 60px;
   margin-bottom: 30px;
 }
+
 .content .info h2 span {
   color: #EE7084;
   font-size: 50px;
   font-weight: 600;
 }
+
 .content .info p {
   display: flex;
   justify-content: center;
@@ -92,6 +97,7 @@ header {
   letter-spacing: 2px;
   margin-bottom: 40px;
 }
+
 .content .info-btn {
   color: #F1F1E6;
   background: #1F4690;
@@ -105,29 +111,11 @@ header {
   transition: 0.3s;
   transition-property: transform;
 }
-.info-btn2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  color: #F1F1E6;
-  background: #1F4690;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-style: italic;
-  letter-spacing: 2px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  transition: 0.3s;
-  transition-property: transform;
-}
+
 .content .info-btn:hover {
   background: #FF8372;
 }
-.info-btn2:hover {
-  background: #FF8372;
-}
+
 .contact {
   color: #FF8372;
   display: flex;
@@ -136,6 +124,7 @@ header {
   margin-bottom: 5px;
   margin-top: 100px;
 }
+
 .media-icons {
   display: flex;
   justify-content: center;
@@ -144,6 +133,7 @@ header {
   margin-top: 5px;
   margin-bottom: 50px;
 }
+
 .media-icons a {
   position: relative;
   color: #FF8372;
@@ -151,6 +141,7 @@ header {
   transition: 0.3s;
   transition-property: transform;
 }
+
 .rights {
   position: relative;
   display: flex;
@@ -162,19 +153,24 @@ header {
   color: #FF8372;
   font-size: 15px;
 }
+
 .media-icons a:not(:last-child) {
   margin-right: 60px;
 }
+
 .media-icons a:hover {
   transform: scale(2);
 }
+
 label {
   display: none;
 }
+
 #check {
   z-index: 3;
   display: none;
 }
+
 /*Responsive Designs*/
 @media (max-width: 960px) {
   .navigation {
@@ -198,7 +194,7 @@ label {
     display: none;
   }
 
-  #check:checked ~ header .navigation {
+  #check:checked~header .navigation {
     z-index: 2;
     position: fixed;
     background: #F1F1E6;
@@ -212,24 +208,24 @@ label {
     align-items: center;
   }
 
-  #check:checked ~ header .navigation a {
+  #check:checked~header .navigation a {
     font-weight: 700;
     margin-right: 0;
     margin-bottom: 50px;
     letter-spacing: 2px;
   }
 
-  #check:checked ~ header label .menu-btn {
+  #check:checked~header label .menu-btn {
     display: none;
   }
 
-  #check:checked ~ header label .close-btn {
+  #check:checked~header label .close-btn {
     z-index: 2;
     display: block;
     position: fixed;
   }
 
-  label .menu-btn{
+  label .menu-btn {
     position: absolute;
     color: #FF8372;
   }
@@ -253,6 +249,7 @@ label {
     font-size: 14px;
   }
 }
+
 @media (max-width: 560px) {
   .content .info h2 {
     font-size: 35px;
