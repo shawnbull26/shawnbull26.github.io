@@ -68,7 +68,7 @@ header {
   align-items: center;
 }
 
-.content .info h2 {
+.content .info h2, h5 {
   color: #FF8372;
   font-family: 'Fascinate Inline', cursive;
   font-size: 85px;
@@ -80,12 +80,19 @@ header {
   margin-bottom: 30px;
 }
 
+h5 {
+  font-size: 55px;
+}
+
 .content .info h2 span {
   color: #EE7084;
   font-size: 50px;
   font-weight: 600;
 }
 
+.uva {
+  color: #FF8372;
+}
 .content .info p {
   display: flex;
   justify-content: center;
@@ -113,6 +120,24 @@ header {
 }
 
 .content .info-btn:hover {
+  background: #FF8372;
+}
+
+.content .goals {
+  color: #F1F1E6;
+  background: #1F4690;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  transition-property: transform;
+}
+
+.content .goals:hover {
   background: #FF8372;
 }
 
