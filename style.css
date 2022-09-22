@@ -84,6 +84,13 @@ h5 {
   font-size: 45px;
 }
 
+img {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .content .info h2 span {
   color: #EE7084;
   font-size: 50px;
